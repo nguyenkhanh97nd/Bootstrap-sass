@@ -1,0 +1,19 @@
+footer{
+	width: 100%;
+	background-color: #3cc3b5;
+	color:#FFF;
+	.container{
+		.footer-col{
+			.list-name{
+				ul{
+					li{
+						list-style-type: none;
+						a{
+							color:#f5fbfa;
+						}
+					}
+				}
+			}
+		}
+	}
+}

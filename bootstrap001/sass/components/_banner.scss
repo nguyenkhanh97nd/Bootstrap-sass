@@ -1,0 +1,29 @@
+header{
+	width:100%;
+	.container{
+		#header{
+			.logo-div{
+				h1{
+					color:#3cc3b5;
+				}
+			}
+			.search-div{
+				padding-top:15px;
+				padding-bottom:10px;
+			}
+			.cart{
+				float:right;
+				.price-cart{
+					float:right;
+					padding-top:5px;
+					color:#a1a1a1;
+				}
+				img{
+					float:right;
+					padding-top:5px;
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}

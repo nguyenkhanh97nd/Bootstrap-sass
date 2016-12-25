@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 001 Khánh</title>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<!--Header-->
+<header>
+	<div class="container">
+		<div id="header">
+			<div class="logo-div col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<h1 class="logo">Aditii</h1>
+			</div>
+			<div class="search-div col-lg-5 col-md-5 col-sm-5 hidden-xs">
+				<div class="form-group">
+    				<input type="text" class="form-control" placeholder="Search">
+  				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 cart">
+				<h3 class="price-cart">$300</h3>
+				<img class="ing-cart" src="images/cart.png"/>
+			</div>
+		</div>
+	</div>
+</header>
+<!--Main Menu-->
+<div class="menu">
+	<div class="container">
+		<div id="header">
+			<nav class="main-menu">
+				<div class="navbar-header navbar-inverse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li><a href="">HOME</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">SALE</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">HANDBAGS</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">WALLETS</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">ACCESSORIES</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">MEN STORE</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">SHOES</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">VINTAGE</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">SERVICES</a></li>
+						<li class="hidden-sm hidden-xs hidden-md"><p>|</p></li>
+						<li><a href="">CONTACT US</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>
+<!--Slider-->
+<div class="slider-main">
+	<div class="container">
+		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+			<img src="images/slider.png" class="img-responsive">
+		</div>
+		<div class="title-slider col-lg-4 col-md-4 col-sm-4">
+			<h2>COWHIDE STANDARD CREW</h2>
+			<p>Write coloured, short sleeved, printed T-Shirt for men by Levi's. This crew-neck T-shirt is made of or-ganic cotton and comes in a regular fit.</p>
+			<span><a href="#" class="btn btn-default" role="button">SHOP NOW</a></span>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs"></div>
+	</div>
+</div>
+<!--Slider content-->
+<div class="slider-product">
+	<div class="container">
+		<div class="slider-div col-lg-4 col-md-4 col-sm-4 col-xs-6">
+			<div class="col-md-6">
+				<img src="images/slider-content1.png" class="img-responsive"/>
+			</div>
+			<div class="slider-product-content col-md-6">
+				<h3>BRANED SHOE</h3>
+				<span><a href="#" class="btn btn-default" role="button">SHOP</a></span>
+			</div>
+		</div>
+		<div class="slider-div col-lg-4 col-md-4 col-sm-4 col-xs-6" id="slider-product2">
+			<div class="col-md-6">
+				<img src="images/slider-content2.png" class="img-responsive"/>
+			</div>
+			<div class="slider-product-content col-md-6">
+				<h3>BRANED SHOE</h3>
+				<span><a href="#" class="btn btn-default" role="button">SHOP</a></span>
+			</div>
+		</div>
+		<div class="slider-div col-lg-4 col-md-4 col-sm-4 hidden-xs" id="slider-product3">
+			<div class="col-md-6">
+				<img src="images/slider-content3.png" class="img-responsive"/>
+			</div>
+			<div class="slider-product-content col-md-6">
+				<h3>BRANED SHOE</h3>
+				<span><a href="#" class="btn btn-default" role="button">SHOP</a></span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Content-->
+<div class="content">
+	<div class="title-product">
+		<div class="container">
+			<div class="main-container-title title-div col-md-12 col-xs-12 col-sm-12 col-lg-12">
+				<h3>
+					FEATURED PRODUCTS
+				</h3>
+			</div>
+		</div>
+	</div>
+	<div class="product">
+		<div class="container">
+			<div class="main-container-product">
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product1.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+					
+				</div>
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product2.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+				</div>
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product3.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+				</div>
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product4.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+				</div>
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product5.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+				</div>
+				<div class="content-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+					<div class="thumbnail">
+						<img src="images/product6.png"/>
+						<div class="caption">
+						<center>
+							<p>BRANCH SHOE</p>
+							<span>$300</span>
+							<span><a href="#" class="btn btn-default" role="button">BUY NOW</a></span>
+						</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Footer-->
+<footer>
+	<div class="container">
+		<div class="footer-col col-lg-3 col-md-3 col-xs-6 col-sm-3">
+			<center>
+				<h3 class="col-title">
+					FEATURED SALE
+				</h3>
+			</center>
+			<div class="list-name">
+				<ul>
+					<li>
+						<a href="#">
+							Alexis Hudson
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							American Apparel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Ben Sherman
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Big Buddha
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Chanel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Christian Audigier
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Coach
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Cole Haan
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-col col-lg-3 col-md-3 col-xs-6 col-sm-3">
+			<center>
+				<h3 class="col-title">
+					FEATURED SALE
+				</h3>
+			</center>
+			<div class="list-name">
+				<ul>
+					<li>
+						<a href="#">
+							Alexis Hudson
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							American Apparel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Ben Sherman
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Big Buddha
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Chanel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Christian Audigier
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Coach
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Cole Haan
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-col col-lg-3 col-md-3 col-xs-6 col-sm-3">
+			<center>
+				<h3 class="col-title">
+					FEATURED SALE
+				</h3>
+			</center>
+			<div class="list-name">
+				<ul>
+					<li>
+						<a href="#">
+							Alexis Hudson
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							American Apparel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Ben Sherman
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Big Buddha
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Chanel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Christian Audigier
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Coach
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Cole Haan
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-col col-lg-3 col-md-3 col-xs-6 col-sm-3">
+			<center>
+				<h3 class="col-title">
+					FEATURED SALE
+				</h3>
+			</center>
+			<div class="list-name">
+				<ul>
+					<li>
+						<a href="#">
+							Alexis Hudson
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							American Apparel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Ben Sherman
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Big Buddha
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Chanel
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Christian Audigier
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Coach
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Cole Haan
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--Copyright-->
+<div class="copyright">
+	<center>
+		<span>
+			Copyright &copy; 2013 Css Author
+		</span>
+	</center>
+</div>
+</body>
+</html>
